@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.top-header{
+	display: flex;
+}
+.logo{
+	font-size: 14px;
+	font-family: 'Poppins SemiBold';
+}
+.logo a{
+	text-decoration: none
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+li a {
+	text-decoration: none;
+}
