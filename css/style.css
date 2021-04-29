@@ -1,13 +1,21 @@
-body{
-	margin: 0;
-	padding: 0;
+*{
+	margin:0;
+}
+.content {
+	background-image: url(../picture/pool.png);
+	background-size: cover;
+	height: 662px;
+	width: 100%;
 }
 .top-header{
 	display: flex;
+	max-width: 1200px;
+	margin: auto;
 }
 .logo{
 	font-size: 14px;
 	font-family: 'Poppins SemiBold';
+	padding: 20px;
 }
 .logo a{
 	text-decoration: none
@@ -18,4 +26,168 @@ li {
 }
 li a {
 	text-decoration: none;
+}
+div a{
+	color: white;
+	font-family: 'Poppins Medium';
+	font-size: 12px;
+
+}
+.menu{
+	padding: 25px;
+	position: fixed;
+	right: 150px;
+	z-index: 1;
+}
+.menu ul li{
+	padding-left: 55px;
+}
+.linie{
+	width: 6.94px;
+	height: 3.47px;
+}
+.first{
+	font-size: 62px;
+	color: white;
+	font-family: 'Poppins ExtraBold';
+	max-width: 1200px;
+	margin: auto;
+}
+.HOTEL{
+	padding: 150px 0 10px 0 ;
+}
+.under{
+	color: white;
+	font-size: 14px;
+	font-family: 'Poppins Regular';
+	margin: auto;
+	max-width: 1200px;
+}
+.sticky{
+	color: white;
+	font-size: 20px;
+	font-family: 'Poppins Bold';
+	margin: auto;
+	max-width: 1200px;
+	padding: 100px 0 0px 0;
+}
+.left{
+	background-color: #FFFFFF;
+	width: 14px;
+	height: 14px;
+	padding: 15px;
+
+}
+.right{
+	background-color: #5863F8;
+	width: 14px;
+	height: 14px;
+	padding: 15px;
+}
+.arrow{
+	position: absolute;
+	bottom: 250px;
+	right: 176px;
+}
+.center{
+	max-width: 1200px;
+	margin:0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.full-text{
+	float: left;
+	margin-right: 235px;
+}
+.trust{
+	font-size: 42px;
+	font-family: 'Poppins ExtraBold';
+}
+.text{
+	font-size: 16px;
+	font-family: 'Poppins Medium';
+	padding: 15px 0 15px 0;
+}
+.text1{
+	font-size: 14px;
+	font-family: 'Poppins Regular';
+}
+.arr{
+	background-color: #5863F8;
+	font-size: 14px;
+	font-family: 'Poppins Regular';
+	border: 0;
+	width: 184px;
+	height: 50px;
+	color: white;
+	margin-top: 15px;
+}
+.arr a{
+	text-decoration: none;
+}
+.arro{
+	width: 10.41px;
+	height: 10.81px;
+	margin-top: 15px;
+}
+.stair{
+	width: 260px;
+	height: 185px;
+}
+.water{
+	width: 260px;
+	height: 185px;
+}
+.cafe{
+	width: 525px;
+	height: 260px;
+}
+.last{
+	margin: auto;
+	max-width: 1200px;
+	font-size: 24px;
+	font-family: 'Poppins Bold';
+	color: white;
+	padding-top:40px;
+}
+.text2{
+	margin: auto;
+	max-width: 1200px;
+	font-size: 14px;
+	font-family: 'Poppins Medium';
+	color: white;
+	padding-top: 20px;
+}
+.bot{
+	background-color: black;
+	width: 100%;
+	height: 304px;
+
+}
+.icon{
+	margin: auto;
+	max-width: 1200px;
+	padding-top: 70px;
+}
+.fb{
+	padding-right: 20px;
+}
+.tw{
+	padding-right: 20px;
+}
+.gp{
+	padding-right: 20px;
+}
+.Copyright{
+	margin: auto;
+	max-width: 1200px;
+	color: white;
+	padding-top: 10px;
+}
+.Copyright a{
+	color: #5863F8;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Poppins Medium';
 }
